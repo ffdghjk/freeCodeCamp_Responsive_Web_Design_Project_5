@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+    
+    <head>
+        <title>JMENO STRANKY</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1 id="title">NADPIS</h1>
+        <p id="description">POPISEK</p>
+
+        <form id="survey-form">
+
+            <label id="name-label">Name:</label>
+            <input id="name" type="text" required placeholder="e.g. John Smith">
+            <br>
+
+            <label id="email-label">Email:</label>
+            <input id="email" type="email" required placeholder="e.g. emma.jones@gmail.com">
+            <br>
+
+            <label id="number-label">Any number lower than 11:</label>
+            <input id="number" max="10" type="number" placeholder="e.g. 7">
+            <br>
+
+            <label id="dropdown">Favourite color:</label>
+            <select>
+              <option value="red">Select a color</option>
+              <option value="red">Red</option>
+              <option value="green">Green</option>
+              <option value="blue">Blue</option>
+            </select>
+            <br>
+
+            <label id="radio">Which one do you like the most:</label>
+                <label><input name="food" value="pizza" type="radio">Pizza</label>
+                <label><input name="food" value="toamtoes" type="radio">Tomatoes</label>
+                <label><input name="food" value="fries" type="radio">Fries</label>
+                <label><input name="food" value="milk" type="radio">Milk</label>
+            <br>
+
+            <label id="checkbox">Do you own any of these pets:</label>
+                <label><input value="dog" type="checkbox">Dog</label>
+                <label><input value="cat" type="checkbox">Cat</label>
+                <label><input value="hamster" type="checkbox">Hamster</label>
+                <label><input value="snake" type="checkbox">Snake</label>
+            <br>
+
+            <label>Questions about the survey:</label>
+                <input type="text" placeholder="e.g. How are you?">
+            <br>
+            <br>
+
+            
+            <button type="submit">Potvrdit</button>
+
+        </form>
+    </body>
+    
+</html>
